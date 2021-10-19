@@ -4,6 +4,10 @@
 }
 .Header {
 	text-align: center;
+	border: 2px transparent;
+	border-radius: 15px;
+	background-color: #474743;
+
 }
 .Header h1 {
 	font-size: 25px;
@@ -12,7 +16,7 @@
 	font-size: 20px;
 }
 .Formulario-input {
-	font-size: 25px;
+	font-size: 22px;
 }
 .Elige-menu {
 	font-size: 20px;
@@ -42,13 +46,14 @@
 .Footer {
 	border: 2px transparent;
 	border-radius: 15px;
-	background-color: #4b4b47;
+	background-color: #474743;
 }
 .btn {
 	border-radius: 25px;
 	width: 150px;
 	height: 30px;
 	margin-bottom: 20px;
+
 }
 input[type="checkbox"] {
 	transform: scale(2);
@@ -68,6 +73,9 @@ input[type="number"] {
 	border-radius: 10px;
 	box-shadow: 2px 2px 5px #181818;
 	margin-bottom: 15px;
+}
+.hidden-btn {
+	display: none;
 }
 @media (min-width: 1000px) {
 	.Container {
