@@ -1,0 +1,59 @@
+.Container {
+	background-color: #52524e;
+	color: white;
+}
+.Header {
+	text-align: center;
+}
+.Header h1 {
+	font-size: 25px;
+}
+.Header p {
+	font-size: 20px;
+}
+.Formulario-input {
+	font-size: 25px;
+}
+.Elige-menu {
+	font-size: 20px;
+	font-weight: bold;
+}
+.Menu-container {
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(1, 1fr);
+}
+.item {
+	border: 5px solid transparent;
+	border-radius: 15px;
+	background-color: #353531;
+
+	/*-----------------------------*/
+	display: flex;
+	text-align: start;
+	justify-content: space-between;
+}
+
+.Image-producto {
+	max-width: 170px;
+    border-radius: 15px;
+}
+.Footer {
+	border: 2px transparent;
+	border-radius: 15px;
+	background-color: #4b4b47;
+}
+.btn {
+	border-radius: 25px;
+	width: 150px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+input[type="checkbox"] {
+	transform: scale(2);
+}
+@media (min-width: 1000px) {
+	.Container {
+		display: none;
+	}
+}
