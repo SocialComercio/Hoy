@@ -15,11 +15,17 @@
 	</head>
 	<body class="Container">
 		<div class="Header">
-			<h1>Bienvenido al menu del día</h1>
+			<h1>
+				<span>Almuerzo</span>
+				<br />
+				Y
+				<br />
+				<span>Reposteria</span>
+			</h1>
 			<p>
-				Dejanos tu contacto para facilitar tu
-				pedido, nos pondremos en contacto contigo
-				por medio de WhatsApp.
+				Dejanos tu contacto para confirmar tu
+				pedido, nos pondremos en contacto por medio
+				de WhatsApp.
 			</p>
 		</div>
 		<div class="Formulario">
@@ -78,8 +84,11 @@
 										>Plato del
 										día</label
 									>
+									<br />
 									<input
-										type="checkbox"
+										class="cantidad"
+										type="number"
+										placeholder="Cantidad"
 										name="plato-del-dia"
 									/>
 								</span>
@@ -117,8 +126,11 @@
 										>Piña de
 										tamales</label
 									>
+									<br />
 									<input
-										type="checkbox"
+										class="cantidad"
+										placeholder="Cantidad"
+										type="number"
 										name="Tamales"
 										disabled
 									/>
@@ -144,8 +156,11 @@
 										>Ensalada
 										Rusa</label
 									>
+									<br />
 									<input
-										type="checkbox"
+										class="cantidad"
+										placeholder="Cantidad"
+										type="number"
 										name="Ensalada-rusa"
 									/>
 								</span>
@@ -173,8 +188,11 @@
 										>Ensalada De
 										Papa</label
 									>
+									<br />
 									<input
-										type="checkbox"
+										class="cantidad"
+										placeholder="Cantidad"
+										type="number"
 										name="Ensalada-papa"
 									/>
 								</span>
@@ -196,15 +214,18 @@
 						</div>
 						<!---------------------------------------->
 						<div class="item">
-							<div  class="item-space">
+							<div class="item-space">
 								<span>
 									<label
 										for="Ensalada-caracolitos"
-										>Ensalada de <br>
+										>Ensalada de <br />
 										Caracolitos</label
 									>
+									<br />
 									<input
-										type="checkbox"
+										class="cantidad"
+										placeholder="Cantidad"
+										type="number"
 										name="Ensalada-caracolitos"
 									/>
 								</span>
@@ -234,8 +255,11 @@
 										>Coca Cola
 										Pequeña</label
 									>
+									<br />
 									<input
-										type="checkbox"
+										class="cantidad"
+										placeholder="Cantidad"
+										type="number"
 										name="Cola_pequeña"
 									/>
 								</span>
@@ -262,8 +286,11 @@
 										>Fanta
 										Pequeña</label
 									>
+									<br />
 									<input
-										type="checkbox"
+										class="cantidad"
+										placeholder="Cantidad"
+										type="number"
 										name="Fanta_pequeña"
 									/>
 								</span>
@@ -288,11 +315,14 @@
 								<span>
 									<label
 										for="Canadadry_pequeña"
-										>Canada Dry <br>
+										>Canada Dry <br />
 										Pequeña</label
 									>
+									<br />
 									<input
-										type="checkbox"
+										class="cantidad"
+										placeholder="Cantidad"
+										type="number"
 										name="Canadadry_pequeña"
 									/>
 								</span>
@@ -319,7 +349,9 @@
 										>Mini Donas
 									</label>
 									<input
-										type="checkbox"
+										class="cantidad"
+										placeholder="Cantidad"
+										type="number"
 										name="Donas"
 									/>
 								</span>
@@ -351,8 +383,11 @@
 									<label for="Turron"
 										>Cajeta de Turron
 									</label>
+									<br />
 									<input
-										type="checkbox"
+										class="cantidad"
+										placeholder="Cantidad"
+										type="number"
 										name="Turron"
 									/>
 								</span>
@@ -374,13 +409,17 @@
 						<div class="item">
 							<div class="item-space">
 								<span>
-									<label for="Cajeta01"
-										>Cajeta de <br> leche en
-										polvo
+									<label
+										for="cajetas-de-leche"
+										>Cajeta de <br />
+										leche en polvo
 									</label>
+									<br />
 									<input
-										type="checkbox"
-										name="Cajeta01"
+										class="cantidad"
+										placeholder="Cantidad"
+										type="number"
+										name="cajetas-de-leche"
 									/>
 								</span>
 								<ul>
@@ -401,12 +440,16 @@
 						<div class="item">
 							<div class="item-space">
 								<span>
-									<label for="Cajeta01"
+									<label
+										for="Cajeta-Cereal"
 										>Cajeta de cereal
 									</label>
+									<br />
 									<input
-										type="checkbox"
-										name="Cajeta01"
+										class="cantidad"
+										placeholder="Cantidad"
+										type="number"
+										name="Cajeta-Cereal"
 									/>
 								</span>
 								<ul>
@@ -433,17 +476,21 @@
 			</form>
 		</div>
 		<div class="Footer">
-			Estos pedidos actualmente estaran disponibles
-			para los dias
-			<em>Viernes</em>.
-
-			<br />
-			Despues de realizar su pedido, se le enviara un
-			mensaje de confirmacion a su
-			<strong>numero de celular</strong>.
-			<br />
-			Los metodos de pago seran por
-			<em>Sinpe Movil</em> o en efectivo.
+			<h3>Informacion importante.</h3>
+			<p>
+				Estos pedidos actualmente estaran
+				disponibles para entregar los dias
+				<strong>Viernes</strong>.
+				<br />
+				Todos los pedidos realizados se confirmaran
+				por WhatsApp, en caso de no ser respondidos,
+				contactaremos por correo electronico.
+				<br />
+				Los metodos de pago seran por medio de
+				<em>Sinpe Movil</em> o en efectivo a la hora
+				de entrega.
+			</p>
 		</div>
+		<div id="ultimo"></div>
 	</body>
 </html>
